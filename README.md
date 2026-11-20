@@ -4,8 +4,8 @@
 
 ## 报告与复现入口
 
-- [Word 实验报告扩展版](report/海温热点局部重分块实验报告_扩展版.docx)
-- [Markdown 协作记录](AI_DIALOGUE.md) · [实验方法问答](EXPERIMENT_WALKTHROUGH.md)
+- [实验报告](面向海温单点长序列查询的热点局部重分块实验_周琪_12634053.docx) 
+- [Markdown 协作记录](AI_DIALOGUE.md) 
 - [仿真与本地 Zarr 校验脚本](src/replay.py)
 - [按随机种子回放的数据](results/replay.csv) · [本地 Zarr 校验记录](results/zarr_audit.json)
 - [动态副本实验脚本](src/adaptive.py) · [逐窗记录](results/adaptive_windows.csv) · [动态汇总和增量建设校验](results/adaptive_summary.json) · [灵敏度数据](results/duration_sensitivity.csv)
