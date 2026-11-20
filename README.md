@@ -58,4 +58,4 @@ python src/adaptive.py
 
 `adaptive_windows.csv` 有 37,800 行，记录每种策略在各窗的命中数、查询字节、建设读写和净收益。`duration_sensitivity.csv` 有 1,200 行，记录 40 个参数组合的 30 次配对回放。增量建设另外用本地 Zarr 核验 24 次单点查询。相同数量的新增分区分散到四个原空间块时，建设读取量从 0.938 MiB 增至 3.750 MiB。字节口径未计入删块、索引、缓存、压缩和暂存开销。
 
-目录采用 README 入口、独立 Markdown 对话、报告与实验产物可分别查阅的组织方式。布局参考只查看了两个同课程公开仓库的文件清单。 [目录参考一](https://github.com/contrjsdfs/Marine-Data-Mining-Technology) · [目录参考二](https://github.com/qeffad/Data-Mining-Technology-HomeWork)
+目录采用 README 入口、独立 Markdown 对话、报告与实验产物可分别查阅的组织方式。
